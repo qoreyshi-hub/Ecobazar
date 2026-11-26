@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* features */
+.feature__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature__wrapper div h6 {
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+.feature__wrapper div p {
+  font-size: 14px;
+  line-height: 150%;
+  color: #999999;
+}

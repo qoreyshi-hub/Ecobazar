@@ -1,0 +1,27 @@
+.nav-item__wrapper {
+  color: #999999;
+  transition: all 150ms ease-in-out;
+}
+.nav-item__wrapper div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.arrow-down {
+  width: 16px;
+  height: 16px;
+  transition: all 150ms ease-in-out;
+}
+@media (min-width: 768px) {
+  .nav-item__wrapper {
+    cursor: pointer;
+  }
+  .nav-item__wrapper:hover {
+    color: white;
+  }
+  .nav-item__wrapper:hover .arrow-down {
+    transform: rotate(180deg);
+  }
+}
+@media (min-width: 998px) {
+}

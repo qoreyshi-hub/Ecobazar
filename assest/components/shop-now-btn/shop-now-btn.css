@@ -1,0 +1,32 @@
+*,
+*::before,
+* ::after {
+  box-sizing: border-box;
+}
+.showNowBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  gap: 18px;
+  width: 160px;
+  height: 45px;
+  border-radius: 43px;
+  font-weight: 600;
+}
+.showNowBtnWrapper span {
+  font-size: 14px;
+}
+.showNowBtnWrapper svg {
+  width: 15px;
+  height: 12px;
+}
+@media (max-width: 768px) {
+  .showNowBtnWrapper {
+    width: 140px;
+    height: 40px;
+  }
+  .showNowBtnWrapper span {
+    font-size: 12px;
+  }
+}
